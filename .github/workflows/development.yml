@@ -1,7 +1,7 @@
 on:
     push:
         branches:
-            - develop
+            - 'feature/**'
 jobs:
     development:
         name: development

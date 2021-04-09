@@ -6,7 +6,7 @@ Git Flow workflow with Git Actions
 ### development.yml
 
 1. on push:
-    * branch development
+    * branch feature
 2. chekout
 3. build
 4. unit test
@@ -17,14 +17,19 @@ Git Flow workflow with Git Actions
 
 1. on workflow_dispatch:
     * add version number
-2. chekcout
-3. create release branch from development
-4. update changelog
-5. init git
-6. update version
-7. commit
-8. push release to remote
-9. creates pull request to master
+2. checkout develop
+3. Build
+4. Unit Test
+5. Deploy Staging
+6. Integration
+7. chekout develop
+8. create release branch from development
+9. update changelog
+10. init git
+11. update version
+12. commit
+13. push release to remote
+14. creates pull request to master
 
 
 ### publish-release.yml
