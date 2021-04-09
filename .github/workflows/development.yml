@@ -14,6 +14,6 @@ jobs:
             - name: build
               run: echo "Build"
             - name: unit test
-              run: ehco "unit test"
+              run: echo "unit test"
             - name: static analysis
               run: echo "static analysis"
