@@ -14,7 +14,7 @@ jobs:
               with:
                 fetch-depth: 0
             - name: create release branch
-              run: git checkout -b release/${{ github.event.inputs.version }} remote/development
+              run: git checkout -b release/${{ github.event.inputs.version }} remote/develop
             - name: Update changelog
               uses: thomaseizinger/keep-a-changelog-new-release@1.1.0
               with:
