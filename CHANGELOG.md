@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Change development.yml action to act on feature/* branches
 - Change draf-release.yml action to build, test, staging deploy and integration testing from development
+- Test test-git-flow-git-actions-workflow
 
 ## [0.0.4] - 2021-04-09
 
