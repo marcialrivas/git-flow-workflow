@@ -1,19 +1,19 @@
 on:
     push:
         branches:
-            - development
+            - develop
 jobs:
     development:
         name: development
         runs-on: ubuntu-latest
         steps:
-            - name: chekout
-              uses: actions/chekout@v2
+            - name: checkout
+              uses: actions/checkout@v2
               with:
                 fetch-depth: 0
             - name: build
               run: echo "Build"
             - name: unit test
-              run: ehco "unit test"
+              run: echo "unit test" 
             - name: static analysis
               run: echo "static analysis"
